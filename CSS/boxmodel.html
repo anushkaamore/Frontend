@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+           padding-top: 10px;
+           padding-bottom: 20px;
+           padding-left: 10px;
+           padding-right: 30px;
+
+           padding: 20px;                /* to all sides */
+           padding: 10px 20px;            /* T/B L/R */
+           padding: 10px 20px 30px;        /* T L/R B */
+           padding: 10px 20px 30px 40px;   /* TRBL */
+
+           background-color: yellow;
+        }
+        #i1{
+            height: 200px;
+            width: 200px;
+
+            border-style: dashed;
+            border-width: 5px;
+            border-color: red;
+            border: solid 10px yellow;
+
+            border-top-style: double;
+            border-top-width: 5px;
+            border-top-color: blue;
+            border-top: double 5px blue ;
+        }
+        #i2{
+            height: 100px;
+            width: 100px;
+            border: 2px solid;
+            border-radius: 20px;
+            border-radius: 10px 40px;
+            border-radius: 10px 20px 30px;
+            border-radius: 10px 20px 30px 40px;
+
+            border-top-left-radius: 10px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 40px;
+
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>heading</h1>
+
+    <div id="i1"></div>
+
+    <div id="i2"></div>
+</body>
+</html>

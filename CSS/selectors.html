@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: pink;
+            /* universal selector */
+            color: yellow;
+        }
+        div{
+            color: blueviolet;
+        }
+        #i1{
+            color: red;
+        }
+        .c1{
+            color: yellow;
+        }
+        #i1,.c1,h2{
+            background-color: gray;  
+               /* grouping selector */
+        }
+        .c2{
+            background-color: blue;
+        }
+        /* #s1{
+            color: red;
+        } */
+        /* .s2{
+            color: blue;
+        } */
+        /* span{
+            color: green;
+        } */
+
+    </style>
+</head>
+<body>
+    <div>element selector</div>
+    <h1 id="i1">id selector</h1>
+    <h1 class="c1 c2">class selector</h1>
+    <p class="c1">paragraph</p>
+
+    <h2>hiii</h2>
+
+       <!-- priority of selectors
+      id selector -> class selector -> element selector -> univesrsal selector -->
+    <span id="s1" class="s2">checking......</span>
+
+
+</body>
+</html>
